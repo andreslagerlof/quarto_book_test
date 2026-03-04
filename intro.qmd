@@ -1,0 +1,63 @@
+# Introduction
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+Man kan använda kod och skapa visualiseringar som exempelvis olika typer av grafer
+
+```{r}
+#| label: fig-penquins_boxplot
+#| fig-cap: "Olika pingvinarters vikter"
+#| warning: false
+#| message: false
+#| echo: false
+
+library(tidyverse)
+data("penguins")
+
+penguins |> 
+  ggplot(aes(x = species, y = body_mass, color = species)) +
+  geom_boxplot(show.legend = FALSE, size = 2) +
+  geom_jitter(alpha= 0.4, size = 3, show.legend = FALSE) +
+  labs(
+    title = "Vikten mellan olika pingvinarter skiljer sig åt",
+    y = "Vikt i gram",
+    x = "Pingvinart"
+  ) +
+  theme_light()
+```
+
+## Mer fuktioner
+
+Förutom bilder, texter mm så kan man självklart göra tabeller
+
+::: {#tbl-mytable tbl-cap="En fin tabell"}
+| Col1        | Col2 | Col3 |
+|:------------|:----:|-----:|
+| Lite värden |  10  |   20 |
+| Mer värden  |  22  |   44 |
+| Sista       |  33  |   88 |
+:::
+
+## Mer text
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat enim lacus, sollicitudin mollis mauris sodales nec. Nulla quis finibus risus. Duis consequat fermentum quam non auctor. Proin tempor sapien et arcu tristique aliquam. Cras pellentesque augue tellus, nec feugiat arcu cursus eget. Donec et augue mi. Aenean facilisis tortor ac nisi hendrerit, in vulputate lacus tempus. Pellentesque sit amet quam nunc.
+
+### Ytterligare mer
+
+Maecenas ligula ex, iaculis ut mauris vitae, tincidunt imperdiet ipsum. Nunc risus ligula, auctor quis mauris ut, lobortis efficitur nulla. Nunc ipsum lorem, fringilla vitae tortor iaculis, maximus maximus velit.
+
+-   Maecenas ultricies diam ac urna rhoncus fermentum.
+
+-   Duis sagittis suscipit fermentum. Integer lacinia, magna ut vulputate facilisis, sem odio scelerisque dolor, non gravida libero purus ut mauris.
+
+Morbi ultricies eu risus quis lobortis. Quisque luctus massa dapibus, rhoncus nisi eget, bibendum massa. Aliquam erat volutpat. Cras orci felis, molestie eu tempor in, varius non libero. Suspendisse vel enim eu nunc tincidunt commodo. Morbi aliquam odio vitae venenatis dignissim. Donec nec eros est. In odio augue, laoreet id sagittis vel, egestas in nunc. Suspendisse ultrices molestie velit vel viverra. Aliquam sed velit non tellus sodales rutrum sodales quis ante.
+
+1.  Vestibulum ipsum lectus, tincidunt vel tortor in, venenatis tempus mi.
+
+2.  Cras consequat ligula in lectus venenatis, nec dignissim justo vehicula. Etiam mollis volutpat sem, id porttitor nulla malesuada at. Proin finibus augue a tellus aliquam, quis malesuada lorem consectetur.
+
+3.  Vivamus pharetra suscipit turpis cursus sollicitudin.
+
+Aenean cursus laoreet auctor. Pellentesque tristique lorem vel enim pulvinar tempus. Nam vel rutrum sapien. In dui massa, condimentum ac tortor ac, placerat tincidunt nibh. Integer tristique, nisl et condimentum interdum, risus elit pretium ante, vitae condimentum quam orci a sapien. In porttitor nisl sed ultrices tincidunt. Phasellus accumsan dui sit amet urna interdum viverra. Morbi justo sapien, sollicitudin posuere felis non, maximus efficitur ipsum. Aliquam fringilla, libero in venenatis efficitur, mi nibh iaculis est, quis commodo nibh sem vitae quam. Curabitur felis augue, posuere id libero sed, blandit faucibus est. In non laoreet mauris.

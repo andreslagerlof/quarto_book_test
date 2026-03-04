@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "book_test",
+    "section": "",
+    "text": "Preface\nDet här är en Quartobok, dvs den har skapats genom att jag användt Quarto.\nPå Quartos hemsida presenteras Quarto som “An open-source scientific and technical publishing system”. Syftet är att kunna publicera reproducerbara artiklar, presentationer, dashboards, webbplatser, bloggar och böcker i HTML, PDF, MS Word, ePub och mycket mer.\nMan kan skriva i markdown, och inkludera ekvationer, referenser, korsreferenser, figurpaneler, anmärkningar, avancerad layout och mycket mer.\nJust det här är ett exempel på en Quartobok.\nHär är en bild på hur det funkar, det är ganska coolt.\n\n\n\n\n\n\nFigur 1: Bild som visar hur Qarto fungerar",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Mer fuktioner\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\nMan kan använda kod och skapa visualiseringar som exempelvis olika typer av grafer\nFörutom bilder, texter mm så kan man självklart göra tabeller",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#mer-fuktioner",
+    "href": "intro.html#mer-fuktioner",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Tabell 1.1: En fin tabell\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\nLite värden\n10\n20\n\n\nMer värden\n22\n44\n\n\nSista\n33\n88",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#mer-text",
+    "href": "intro.html#mer-text",
+    "title": "1  Introduction",
+    "section": "1.2 Mer text",
+    "text": "1.2 Mer text\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat enim lacus, sollicitudin mollis mauris sodales nec. Nulla quis finibus risus. Duis consequat fermentum quam non auctor. Proin tempor sapien et arcu tristique aliquam. Cras pellentesque augue tellus, nec feugiat arcu cursus eget. Donec et augue mi. Aenean facilisis tortor ac nisi hendrerit, in vulputate lacus tempus. Pellentesque sit amet quam nunc.\n\n1.2.1 Ytterligare mer\nMaecenas ligula ex, iaculis ut mauris vitae, tincidunt imperdiet ipsum. Nunc risus ligula, auctor quis mauris ut, lobortis efficitur nulla. Nunc ipsum lorem, fringilla vitae tortor iaculis, maximus maximus velit.\n\nMaecenas ultricies diam ac urna rhoncus fermentum.\nDuis sagittis suscipit fermentum. Integer lacinia, magna ut vulputate facilisis, sem odio scelerisque dolor, non gravida libero purus ut mauris.\n\nMorbi ultricies eu risus quis lobortis. Quisque luctus massa dapibus, rhoncus nisi eget, bibendum massa. Aliquam erat volutpat. Cras orci felis, molestie eu tempor in, varius non libero. Suspendisse vel enim eu nunc tincidunt commodo. Morbi aliquam odio vitae venenatis dignissim. Donec nec eros est. In odio augue, laoreet id sagittis vel, egestas in nunc. Suspendisse ultrices molestie velit vel viverra. Aliquam sed velit non tellus sodales rutrum sodales quis ante.\n\nVestibulum ipsum lectus, tincidunt vel tortor in, venenatis tempus mi.\nCras consequat ligula in lectus venenatis, nec dignissim justo vehicula. Etiam mollis volutpat sem, id porttitor nulla malesuada at. Proin finibus augue a tellus aliquam, quis malesuada lorem consectetur.\nVivamus pharetra suscipit turpis cursus sollicitudin.\n\nAenean cursus laoreet auctor. Pellentesque tristique lorem vel enim pulvinar tempus. Nam vel rutrum sapien. In dui massa, condimentum ac tortor ac, placerat tincidunt nibh. Integer tristique, nisl et condimentum interdum, risus elit pretium ante, vitae condimentum quam orci a sapien. In porttitor nisl sed ultrices tincidunt. Phasellus accumsan dui sit amet urna interdum viverra. Morbi justo sapien, sollicitudin posuere felis non, maximus efficitur ipsum. Aliquam fringilla, libero in venenatis efficitur, mi nibh iaculis est, quis commodo nibh sem vitae quam. Curabitur felis augue, posuere id libero sed, blandit faucibus est. In non laoreet mauris.\n\n\n\n\nKnuth, Donald E. 1984. ”Literate Programming”. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+# Preface {.unnumbered}
+
+Det här är en Quartobok, dvs den har skapats genom att jag användt Quarto.
+
+På [Quartos hemsida](https://quarto.org/ "Quartos hemsida - quarto.org") presenteras Quarto som "An open-source scientific and technical publishing system". Syftet är att kunna publicera reproducerbara artiklar, presentationer, dashboards, webbplatser, bloggar och böcker i HTML, PDF, MS Word, ePub och mycket mer.
+
+Man kan skriva i markdown, och inkludera ekvationer, referenser, korsreferenser, figurpaneler, anmärkningar, avancerad layout och mycket mer.
+
+Just det här är ett exempel på en Quartobok.
+
+Här är en bild på hur det funkar, det är ganska coolt.
+
+![Bild som visar hur Qarto fungerar](pictures/rstudio-qmd-how-it-works.png){#fig-how_it_works}
