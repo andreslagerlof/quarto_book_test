@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "book_test",
     "section": "",
-    "text": "Preface\nDet här är en Quartobok, dvs den har skapats genom att jag användt Quarto.\nPå Quartos hemsida presenteras Quarto som “An open-source scientific and technical publishing system”. Syftet är att kunna publicera reproducerbara artiklar, presentationer, dashboards, webbplatser, bloggar och böcker i HTML, PDF, MS Word, ePub och mycket mer.\nMan kan skriva i markdown, och inkludera ekvationer, referenser, korsreferenser, figurpaneler, anmärkningar, avancerad layout och mycket mer.\nJust det här är ett exempel på en Quartobok.\nHär är en bild på hur det funkar, det är ganska coolt.\n\n\n\n\n\n\nFigur 1: Bild som visar hur Qarto fungerar\n\n\n\nEnkelt att lägga till innehåll.",
+    "text": "Preface\nDet här är en Quartobok, dvs den har skapats genom att jag användt Quarto.\nPå Quartos hemsida presenteras Quarto som “An open-source scientific and technical publishing system”. Syftet är att kunna publicera reproducerbara artiklar, presentationer, dashboards, webbplatser, bloggar och böcker i HTML, PDF, MS Word, ePub och mycket mer.\nMan kan skriva i markdown, och inkludera ekvationer, referenser, korsreferenser, figurpaneler, anmärkningar, avancerad layout och mycket mer.\nJust det här är ett exempel på en Quartobok.\nHär är en bild på hur det funkar, det är ganska coolt.\nEnkelt att lägga till innehåll. Nu lägger jag till mer innehåll.",
     "crumbs": [
       "Preface"
     ]
@@ -57,6 +57,16 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "index.html#och-en-ny-rubrik",
+    "href": "index.html#och-en-ny-rubrik",
+    "title": "book_test",
+    "section": "Och en ny rubrik",
+    "text": "Och en ny rubrik",
+    "crumbs": [
+      "Preface"
     ]
   }
 ]
