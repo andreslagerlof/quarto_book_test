@@ -11,3 +11,5 @@ Just det här är ett exempel på en Quartobok.
 Här är en bild på hur det funkar, det är ganska coolt.
 
 ![Bild som visar hur Qarto fungerar](pictures/rstudio-qmd-how-it-works.png){#fig-how_it_works}
+
+Enkelt att lägga till innehåll.
