@@ -64,7 +64,7 @@
     "href": "index.html#och-en-ny-rubrik",
     "title": "book_test",
     "section": "Och en ny rubrik",
-    "text": "Och en ny rubrik",
+    "text": "Och en ny rubrik\nDet här är också viktigt.",
     "crumbs": [
       "Preface"
     ]

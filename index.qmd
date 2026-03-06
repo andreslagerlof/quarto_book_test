@@ -15,3 +15,5 @@ Här är en bild på hur det funkar, det är ganska coolt.
 Enkelt att lägga till innehåll. Nu lägger jag till mer innehåll.
 
 ## Och en ny rubrik
+
+Det här är också viktigt.
